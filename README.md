@@ -1,5 +1,3 @@
-# Content for the README file
-readme_content = """
 # Power Spectral Density (PSD) of a Music Signal
 
 ## Description
