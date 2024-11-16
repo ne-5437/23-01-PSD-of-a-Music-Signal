@@ -5,7 +5,8 @@ This MATLAB project captures audio, visualizes it in the time domain, and comput
 
 ## Features
 - Records a 10-second audio signal.
-- Plots the signal in the time domain.
+- Retains control until recording is done.
+- Creates a numeric array to plot the audio samples.
 - Computes and displays the PSD using Welch's method.
 
 ## Prerequisites
@@ -15,6 +16,7 @@ This MATLAB project captures audio, visualizes it in the time domain, and comput
 ## How It Works
 1. Initializes an audio recorder.
 2. Captures a 10-second audio signal.
-3. Plots the time-domain waveform.
-4. Computes and visualizes the PSD.
-
+3. Retains control until the recording is complete.
+4. Creates a numeric array for plotting the audio samples.
+5. Plots the time-domain waveform.
+6. Computes and visualizes the PSD by averaging the power spectrum estimates of all segments using the Welch Spectrum Estimate.
